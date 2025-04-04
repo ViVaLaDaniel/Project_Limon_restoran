@@ -1,0 +1,91 @@
+body {
+  background-color: #c2c5c3a9;
+  font-family: sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+img {
+  width: 45%;
+  height: auto;
+}
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  background-color: black;
+  border-radius: 2rem;
+  padding: 12px 2rem;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  padding: 15px;
+  color: aliceblue;
+  font-size: 25px;
+  margin-left: 4rem ;
+}
+nav a:hover {
+  color:rgb(72, 255, 0);
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+
+section {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 5rem;
+}
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  width: 100%; /* Растягиваем футер на всю ширину экрана */
+  justify-content: space-between; /* Лого прижмется влево, текст — вправо */
+  align-items: center; /* Выравниваем элементы по вертикали */
+  padding: 1rem; /* Добавляем небольшой отступ */
+}
+
+footer div:first-child {
+  text-align: left; /* Лого влево */
+}
+footer div:first-child img {
+  width: 5rem; /* Размер логотипа */
+}
+footer div:last-child {
+  text-align: right; /* Текст вправо */
+}
+
+/*footer  {
+  display: flex;
+  width: 20rem;
+  justify-content:space-between;
+}
+footer div {
+  flex: 1;
+  text-align: center;
+}*/
